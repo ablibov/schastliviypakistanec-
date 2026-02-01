@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+html, body {
+  font-family: "Jersey 15", sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #520808;
+}
+
+.nachalo {
+    background-image: linear-gradient(rgba(215, 10, 10, 0.5), rgba(235, 33, 33, 0.5)), url("./img/logo.png"); 
+    background-size: 100%;
+    height: 700px;
+}
+
+#sigma_1 {
+    background: rgb(87, 2, 2);
+    width: 100%;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.h1clas {
+    color: transparent;
+    text-align: center;
+    padding-top: 200px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.firs1tp {
+    font-size: 75px;
+    color: white;
+    text-align: center;
+}
+
+#firstcounter {
+    display: block;
+    margin: 0 auto;
+    font-size: 4em;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+@keyframes countUp {
+    0% { opacity: 0; transform: scale(0.8); }
+    50% { opacity: 1; transform: scale(1.1); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+.secondcounter {
+    animation: countUp 0.5s ease-in-out forwards;
+    text-align: center !important;
+
+}
+
+#secondcounter {
+    display: block;
+    margin: 0 auto;
+    font-size: 4em;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+@keyframes countUp {
+    0% { opacity: 0; transform: scale(0.8); }
+    50% { opacity: 1; transform: scale(1.1); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+.secondcounter {
+    animation: countUp 0.5s ease-in-out forwards;
+    text-align: center !important;
+
+}
+
+.hilight {
+    margin-left: 25px;
+    font-size: 5.5em;
+    color: #520808;
+}
+
+.will {
+    margin-left: 25px;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+.second {
+    background-color: #ffffff;
+    height: 205px;
+}
+
+.textone {
+    text-align: center;
+    font-size: 2em;
+    color: #ffffff;
+    background-color: #520808;
+}
+
+.pfirst {
+    text-align: center;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+.higerwithus {
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(215, 10, 10, 0.7), rgba(112, 17, 17, 0.7)), url("./img/logo2.png"); 
+    width: 750px;
+    height: 300px;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    background-color: #ffffff !important;
+}
+
+.joinus {
+    margin: 10px;
+}
+
+.spanone {
+    color: #ffffff;
+}
+
+.li_1 {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+#thirdcounter {
+    color: white;
+}
+
+.aboutbad {
+    margin-left: 300px;
+}
+
+.ourpluses {
+    margin-top: 25px;
+    background-color: #520808 !important;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+    .btn.btn-primary {
+        font-size: 25px;
+                margin-top: -20px !important;
+
+    }
+
+.spanaoneclassno {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    color: white;
+}
+
+.row1 {
+    background-color: #520808 !important;
+}
+
+.col-md-41 {
+    background-color: #520808;
+}
+
+.card-body {
+    background-color: #520808;
+
+}
+
+.odinizdivov {
+    margin-top: 25px;
+    background-color: #ffffff;
+    color: #520808;
+    text-align: center;
+    font-size: 2em;
+}
+
+.was-validatedclass {
+    margin-top: 25px;
+    color: #ffffff;
+    background-color: #520808;
+    text-align: center;
+    font-size: 2em;
+}
+
+form {
+    background-color: #520808 !important;
+    color: #ffffff !important;
+    max-width: 1250px !important;
+    margin: 0 auto;
+}
+
+input {
+    border-radius: 25px !important;
+    max-width: 500px !important;
+    margin: 0 auto !important;
+}
+
+select {
+    border-radius: 25px !important;
+    max-width: 500px !important;
+    margin: 0 auto !important;
+}
+
+.form-group {
+    margin: 0 auto !important;
+}
+
+footer {
+    background-color: #ffffff !important;
+    color: #520808 !important;
+    height: 50%;
+}
+
+@media (max-width: 600px) {
+    .parnetners {
+        width: 390px;
+        height: 250px;
+    }
+
+    .hilight {
+        font-size: 55px;
+    }
+
+    .firs1tp{
+        font-size: 25px;
+    }
+
+    #firstcounter {
+        font-size: 28px !important;
+    }    
+    #secondcounter {
+        font-size: 28px !important;
+    }
+
+    .nachalo {
+        margin: 0 auto;
+        background-size: 200%;
+    }
+
+    .higerwithus {
+        width: 300px;
+        height: 400px;
+    }
+
+    .aboutbad {
+        z-index: 9999;
+        color: #520808;
+        margin-left: 25px !important;
+        margin-top: 195px !important;
+    }
+
+    .li_1 {
+        font-size: 15px;
+        font-weight: 100;
+        margin-top: -115px;
+    }
+
+    .row1 {
+        display: block;
+        justify-content: space-between;
+        margin: -14px;
+    }
+
+    .col-md-41 {
+        padding: 25px 0px;
+    }
+
+    .card {
+        margin: 0 auto;
+        width: 350px !important;
+    }
+
+    .oneofftheimg {
+        width: 350px !important;
+        height: 450px !important;
+        margin: 0 auto !important;
+                display: block;
+
+    }
+
+    .col-md-65 {
+                margin: 0 auto !important;
+
+        display: block;
+    }
+
+    .btn.btn-primary {
+        font-size: 25px;
+        margin-top: -20px !important;
+    }
+}
